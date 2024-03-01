@@ -1,0 +1,14 @@
+¡Por supuesto! Imagina que estás jugando un partido de fútbol con tus jugadores favoritos: Cristiano Ronaldo, Mbappé, Ronaldo Nazario, Ronaldinho,
+ Jorge Valdivia, Arturo Vidal y Chupete Suazo. 
+
+Ahora, imagina que tienes una bolsa llena de camisetas de estos jugadores. Cada camiseta tiene un número único en ella, que va desde un
+ número mínimo (digamos 1) hasta un número máximo (digamos 100). 
+
+La función `getRandomIntInclusive(min, max)` es como cerrar los ojos y meter la mano en la bolsa para sacar una camiseta al azar. 
+
+- `Math.ceil(min)` es como asegurarte de que no tomas una camiseta con un número menor al mínimo (porque no existen en la bolsa).
+- `Math.floor(max)` es como asegurarte de que no tomas una camiseta con un número mayor al máximo (porque tampoco existen en la bolsa).
+- `Math.random() * (maxFloored - minCeiled + 1) + minCeiled` es como mover tu mano al azar dentro de la bolsa y sacar una camiseta.
+
+Entonces, esta función te da un número al azar (como el número en la camiseta) que está entre el mínimo y el máximo, ¡incluyendo ambos!
+ Es como si estuvieras eligiendo al azar qué jugador será el próximo en marcar un gol en tu partido de fútbol imaginario. ⚽
